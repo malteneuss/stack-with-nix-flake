@@ -1,0 +1,11 @@
+name:                myproject
+version:             1.0.0.0
+author:              Author name here
+maintainer:          example@example.com
+copyright:           "MIT"
+
+dependencies:
+  - base
+
+library:
+  source-dirs: src
