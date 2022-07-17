@@ -6,6 +6,8 @@ copyright:           "MIT"
 
 dependencies:
   - base
+  - mtl
+  - JuicyPixels
 
 library:
   source-dirs: src
