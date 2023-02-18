@@ -8,6 +8,11 @@ dependencies:
   - base
   - mtl
   - JuicyPixels
+executables:
+  main:
+    main: src/Main.hs
+    # dependencies: [base, my-lib]
+    ghc-options: [-threaded]
 
 library:
   source-dirs: src

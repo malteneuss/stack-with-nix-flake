@@ -1,6 +1,6 @@
 cabal-version: 1.12
 
--- This file has been generated from package.yaml by hpack version 0.34.7.
+-- This file has been generated from package.yaml by hpack version 0.35.1.
 --
 -- see: https://github.com/sol/hpack
 
@@ -18,6 +18,17 @@ library
       Paths_myproject
   hs-source-dirs:
       src
+  build-depends:
+      JuicyPixels
+    , base
+    , mtl
+  default-language: Haskell2010
+
+executable main
+  main-is: src/Main.hs
+  other-modules:
+      Paths_myproject
+  ghc-options: -threaded
   build-depends:
       JuicyPixels
     , base
